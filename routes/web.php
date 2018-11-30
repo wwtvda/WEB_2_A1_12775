@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('a12775_vidia_model','a12775_vidia_controller');
